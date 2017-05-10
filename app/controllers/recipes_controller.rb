@@ -20,7 +20,7 @@ class RecipesController < ApplicationController
                         directions: params[:directions]
                         )
     recipe.save
-    flash[:success] = "Recipe successfully updated."
+    flash[:success] = "Recipe successfully created."
     redirect_to "/recipes/#{ recipe.id }"
   end
 
