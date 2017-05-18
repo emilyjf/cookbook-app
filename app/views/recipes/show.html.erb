@@ -17,5 +17,5 @@
 <% end %>
 </ol>
 
-<%= link_to "Edit Recipe", "/recipes/#{ @recipe.id }/edit" %>
-<%= link_to "Delete", "/recipes/#{ @recipe.id }", method: :delete%>
+<%= link_to "Edit Recipe", "/recipes/#{ @recipe.id }/edit", class: "btn btn-warning" %>
+<%= link_to "Delete", "/recipes/#{ @recipe.id }", method: :delete, class: "btn btn-danger" %>

@@ -5,13 +5,13 @@
     Title: <input type="text" name="title" value="<%= @recipe.title %>">
   </div>
   <div>
-    Chef: <input type="text" name="chef" value="<%= @recipe.chef %>">
-  </div>
-  <div>
     Ingredients: <input type="text" name="ingredients" value="<%= @recipe.ingredients %>">
   </div>
   <div>
     Directions: <input type="text" name="directions" value="<%= @recipe.directions %>">
+  </div>
+  <div>
+    Prep Time: <input type="text" name="prep_time" value="<%= @recipe.prep_time %>">
   </div>
   <input type="submit" value="Update Recipe">
 <% end %>
